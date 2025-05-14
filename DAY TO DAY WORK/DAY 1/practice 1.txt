@@ -1,0 +1,49 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int age;
+    cin >> age;
+    if (age < 18){
+        cout << "not eligble for job";
+    }
+    else if (age >= 18 && age <55){
+        cout << "eligble for job";
+    }
+    else if (age >= 55 && age <=57){
+        cout << "eligble for job but retirement soon";   
+    }
+    else if (age > 57){
+        cout << "retirement time";
+    }
+    return 0;
+}
+
+
+/* below is the another way to write the program*/
+
+
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int age;
+    cin >> age;
+    if (age < 18){
+        cout << "not eligble for job";
+    }
+    else if (age <= 57){
+        cout << "eligble for job";
+        if (age >= 55){
+            cout << " but retirement soon";
+        }
+    }
+/*    else if (age >= 55 && age <=57){
+        cout << "eligble for job but retirement soon";   
+    }*/
+    else if (age > 57){
+        cout << "retirement time";
+    }
+    return 0;
+}

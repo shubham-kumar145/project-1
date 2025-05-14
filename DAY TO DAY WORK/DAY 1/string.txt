@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string s = "hey shubham";
+    int len = s.size();
+    cout << s << endl << s[2] << s[4] << endl << s[6]<< endl;
+    s[3]= 'd';
+    cout << s;
+    return 0;
+}

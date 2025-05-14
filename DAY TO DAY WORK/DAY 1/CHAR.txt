@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    char ch;
+    // using char to take only one char. the first one only 
+    cin >> ch;
+    cout << ch;
+    return 0;
+}

@@ -1,0 +1,16 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int arrl[5];
+    cin >> arrl[0]>>arrl[1]>>arrl[2]>>arrl[3]>>arrl[4];
+    cout << arrl[2];
+    cout << endl;
+    arrl[2]+=10;
+    cout << arrl[2];
+    arrl[2]=arrl[1];
+    cout << endl;
+    cout << arrl[2];
+
+    
+    return 0;
+}

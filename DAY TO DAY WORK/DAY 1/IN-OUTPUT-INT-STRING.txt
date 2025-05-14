@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main() {
+    int x;
+    //int ,long, long long
+    float y;
+    double z;
+    //long double
+    cout << "hey shubham kumar" << endl << "next line"<<endl;
+    cin >> x>> y>>z;
+    cout << "number" << endl<<x<<endl<<y<<endl<<z ;
+    //string , getline
+    string s,d,f;
+    cin >> s>>d>>f;
+    cout<< endl<<s<<endl<<d<<endl<<f;
+    // to print entire line we can do like this
+    string str;
+    getline(cin, str);
+    cout << str;
+    return 0 ;
+}

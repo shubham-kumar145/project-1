@@ -1,0 +1,43 @@
+Question 1 : Basic Resizing
+Question: Dynamically allocate memory for an array of size 3 using malloc. Assign values 10, 20, 30. Then resize the array to size 5 using realloc and initialize the new elements with 40 and 50.
+
+Input:
+Original size: 3
+New size: 5
+Output:
+Original array: 10 20 30
+Resized array: 10 20 30 40 50
+
+Question 2 : Shrinking an Array
+Question: Allocate memory for an array of size 8 using calloc, initialize it with values 1 to 8, and shrink it to size 5 using realloc.
+
+Input:
+Initial size: 8
+Shrink size: 5
+Output:
+Original array: 1 2 3 4 5 6 7 8
+Resized array: 1 2 3 4 5
+
+Question 3: Doubling Array Size
+Question: Create an array of size n=4 using malloc and initialize it with values 1, 2, 3, 4. Double the size using realloc and initialize the new elements as 5, 6, 7, 8.
+
+Input:
+Initial size: 4
+New size: 8
+ Output:
+Original array: 1 2 3 4
+Resized array: 1 2 3 4 5 6 7 8
+
+Question 4: Growing and Shrinking Dynamically
+Question: Create an array of size n=3 using calloc. Resize it to n=6 using realloc (initialize new elements as 10, 20, 30) and then shrink it back to n=4.
+
+Input:
+Initial size: 3
+Resize to: 6
+Shrink to: 4
+Output:
+Original array: 0 0 0
+After growing: 0 0 0 10 20 30
+After shrinking: 0 0 0 10
+
+And also solve array questions using malloc and calloc.

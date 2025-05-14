@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main (){
+    int x = 1;
+    while(x <=5 ){
+        cout << "your while loop is working   "<< x <<endl;
+        x+=1;
+    }
+    cout << x;
+    return 0;
+}

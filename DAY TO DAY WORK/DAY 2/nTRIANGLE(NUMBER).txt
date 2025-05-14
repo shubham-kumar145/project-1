@@ -1,0 +1,27 @@
+#include<bits/stdc++.h>
+using namespace std;
+void star(int x){
+    for (int i = 1; i <= x;i++ ){
+        for(int j=0;j<i;j+=1){
+            for(int k=0;k<i;j++){
+                cout << j+1;
+                break;
+            }
+        }
+    cout << endl;
+    }
+}
+void star1(int x){
+    for (int i = 1; i <= x;i++ ){
+        for(int j=1;j<=i;j++){
+            cout << j<<" ";
+        }
+        cout << endl;
+    }
+}
+int main(){
+    int x ;
+    cin >> x;
+    star1(x);
+    return 0;
+}

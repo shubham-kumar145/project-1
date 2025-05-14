@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body style="background-color: antiquewhite;">
+    <h1 style="color: black; text-align: center;">EMPLOYEEMENT MANAGEMENT SYSTEM</h1>
+    <table cellpadding="4" cellspacing="2">
+        <tr>
+            <th><label for="name">NAME:</label></th>
+            <td><input type="text" id="name" placeholder="username" required maxlength="20"></td>
+        </tr>
+        <tr>
+            <th><label for="id">EMP. ID</label></th>
+            <td><input type="text" id="id" placeholder="employee id" maxlength="6" required></td>
+        </tr>
+        <tr>
+            <th><label for="email">EMAIL:</label></th>
+            <td><input type="email" name="text" id="email" placeholder="email"></td>
+        </tr>
+        <tr>
+            <th><label for="password">PASWORD</label></th>
+            <td><input type="password" name="text" id="password" placeholder="password" maxlength="15"></td>
+        </tr>
+        <tr>
+            <th><label for="gender">GENDER</label></th>
+            <td><input type="radio" name="gender" id="gender">male
+                <input type="radio" name="gender" id="gender">female
+                <input type="radio" name="gender" id="gender">other
+            </td>
+        </tr>
+        <tr>
+            <th><label for="address">ADDRESS</label></th>
+            <!-- <td><input type="text" name="address" id="address" height="30" width="40" ></td> -->
+            <td><textarea name="address" id="address" rows="4" cols="20" placeholder="address"></textarea></td>
+        </tr>
+        <tr>
+            <th><label for="place">PLACE</label></th>
+            <td><select name="place" id="place">
+                <option value="patna">patna</option>
+                <option value="gaya">gaya</option>
+                <option value="delhi">delhi</option>
+            </select></td>
+        </tr>
+        <!-- <tr>
+            <th><label for="gender">GENDER</label></th>
+            <td><input type="checkbox" name="gender" id="gender">male 
+                <input type="checkbox" name="gender" id="gender">female
+                <input type="checkbox" name="gender" id="gender">other    
+            </td>
+        </tr> -->
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+    char mixed_text[] = "R3aD a L1n3 0f mIxEd T3xt!";
+    char result[100];
+    
+    for (int i = 0; mixed_text[i] != '\0'; i++) {
+        if (isdigit(mixed_text[i])) {
+            if (mixed_text[i] == '0') {
+                result[i] = mixed_text[i];
+            } else {
+                result[i] = '0';
+            }
+        } else if (islower(mixed_text[i])) {
+            result[i] = toupper(mixed_text[i]);
+        } else if (isupper(mixed_text[i])) {
+            result[i] = tolower(mixed_text[i]);
+        } else {
+            result[i] = '*';
+        }
+    }
+    
+    printf("%s\n", result);
+    
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+

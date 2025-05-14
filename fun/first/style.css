@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100px;
+    width: 300px;
+    background-color: bisque;
+}
+h1:hover{
+    height: 200px;
+    width: 600px;
+    color: blueviolet;
+    margin: auto;
+    transition-duration: 5s;
+    transform: scale(2);
+}
+div {
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+}
+div:hover {
+    height: 300px;
+    width: 500px;
+    color: black;
+}

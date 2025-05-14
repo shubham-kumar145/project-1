@@ -1,0 +1,77 @@
+/*   using vector  */
+#include<bits/stdc++.h>
+using namespace std;
+int main (){
+    vector<int>v(7,55);             // HERE THIS MEANS WE INSERT ONLY INTERGER
+    v.push_back(1);
+    v.emplace_back(4);
+
+    vector<pair<int ,int>>y;  // VECTOR CONTAINING PAIR
+    y.push_back({3,4});
+    y.emplace_back(43,545);
+
+    vector<int>i(5,6);        // coping vector
+    vector<int>j(i);
+
+    vector<int>::iterator it  = v.begin();
+    // v.begin means that it will point at the memorry where the value store
+    /*
+
+    vector<int>::iterator it = end();
+this means that pointer will point towards the next to the last word
+
+    vector<int>::iterator it = v.rend();
+    vector<int>::iterator it = v.rbegin();
+    this will reverse the word
+
+    */
+    it++;
+    cout << *(it);
+
+    //simply to take out put from the vector we use 
+
+    cout << v[0] << " " <<v[1]<<" ";
+    
+    cout << v.back()<< " ";
+
+
+    // USING FOR LOOP
+    for (vector<int> :: iterator it = v.begin();it !=v.end();it++){
+        cout << *(it)<< " ";
+    }
+
+    //uses of auto this will take itself it data type
+
+    for(auto ii = v.begin();ii != v.end();ii ++ ){
+        cout << *(ii)<< " ";
+    }
+
+    for (auto ij :v){
+        cout << ij<<" ";
+    }
+
+    cout << endl<<"dsd";
+
+    //for the delete we use the this function
+    v.erase(v.begin()+2);  // it will remove only one number 
+    v.erase(v.begin(),v.begin()+2); 
+    // it will remove the the number from first to last number written in it
+    vector<int>copy1(4,67);
+    copy1.insert(copy1.begin(),20);
+    copy1.insert(copy1.begin()+1,2,45);
+    cout << endl<<"grg";
+    /*for(vector<int> :: iterator iii =copy1.begin();iii != v.end();iii ++){
+        cout << *(iii) <<" ";
+    }*/
+    // to count the size
+    cout << endl << v.size();
+    // to remove the last number
+    v.pop_back();
+    //to swip vector1 to vector2
+    v.swap(copy1);
+    cout << endl<<copy1.empty();
+    // to clear the vector
+    v.clear();
+    return 0;
+}
+

@@ -1,0 +1,22 @@
+#include<stdio.h>
+struct teacher
+{
+    char name[30];
+    int age;
+    float salary;
+
+};
+int main(){
+    int num;
+    printf("enter the number of teacher");
+    scanf("%d",&num);
+    struct teacher list;
+    fgets(list.name,30,stdin);
+    scanf("%d",&list.age);
+    scanf("%f",&list.salary);
+    printf("input over");
+    puts(list.name);
+    printf("%d",list.age);
+    printf("%f",list.salary);
+    return 0;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us Form</title>
+</head>
+
+<body>
+    <form action="backend.php">
+        <h1>Contact Us form</h1>
+        <div>
+            <label for="name">NAME : </label>
+            <input type="text" name="name" placeholder="USERNAME" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="email">EMAIL: </label>
+            <input type="email" name="email" id="email" placeholder="EMAIL">
+        </div>
+        <br>
+        <div>
+            <label for="contact">CONTACT: </label>
+            <input type="number" name="number" id="contact" placeholder="NUMBER">
+        </div>
+        <br>
+        <div>
+            <label for="birthday">Date Of Birth: </label>
+            <input type="date" name="birthday" id="birthday" placeholder="DOB">
+        </div>
+        <br>
+        <div>
+            <label for="gender">GENDER</label>
+            <select name="gender" id="gender">
+                <option value="male">MALE</option>
+                <option value="female">FEMALE</option>
+                <option value="other">OTHER</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="rating">Rating</label>
+            <input type="radio" name="rating" id="rating1">1
+            <input type="radio" name="rating" id="rating2">2
+            <input type="radio" name="rating" id="rating3">3
+            <input type="radio" name="rating" id="rating4">4
+            <input type="radio" name="rating" id="rating5">5
+        </div>
+        <br>
+        <div>
+            <label for="message">ENTER YOUR MESSAGE</label>
+            <br>
+            <textarea name="message" id="message" placeholder="ENTER YOUR MESSAGE"></textarea>    
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT NOW">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="RESET NOW">
+        </div>
+    </form>
+</body>
+</html>

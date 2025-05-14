@@ -1,0 +1,52 @@
+/*using function 
+1. void - which do not return any thing
+example - case 1
+2. PARAMETERISED 
+EXAMPLE CASE 2
+3. return function
+EXAMPLE CASE 3*/
+
+// CASE 1 VOID WITH OUT GIVING ANY OUTPUT
+/*
+#include<bits/stdc++.h>
+using namespace std;
+void printname(){
+    cout << "hey" << endl;
+}
+int main (){
+    string name;
+    cin >> name;
+    printname();
+    cout << " hey shubham ";
+    return 0;
+}*/
+// CASE 2 PARAMETERISED WHICH WILL RETURN THE VALUE WHICH WE GIVE
+
+/*
+#include<bits/stdc++.h>
+using namespace std;
+void printname1(string name){
+    cout << "hey" << name << endl;
+}
+int main(){
+    string name;
+    cin >> name;
+    printname1 (name);
+    cout << " last line ";
+}
+*/
+// CASE 3
+
+#include <bits/stdc++.h>
+using namespace std;
+int sum(int num1 , int num2){
+    int num3 = num1 + num2 ;
+    return num3;
+}
+int main(){
+    int num1, num2;
+    cin >> num1 >> num2;
+    int result = sum(num1 , num2);
+    cout << "sum of the number " << num1 << " and " << num2 << " is "<< result;
+    return 0;
+}

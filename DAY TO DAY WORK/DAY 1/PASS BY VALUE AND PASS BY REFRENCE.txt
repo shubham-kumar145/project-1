@@ -1,0 +1,51 @@
+/*
+PASS BY VALUE
+*/
+/*
+#include<bits/stdc++.h>
+using namespace std;
+void number(int num){
+    cout << num;
+    num += 25;
+    cout << endl;
+    cout << num;
+    num+=25;
+    cout << endl;
+    cout << num;
+    num += 25;
+    cout << endl;
+    cout << num;
+}
+int main(){
+    int num = 10;
+    number(num);
+    cout << endl;
+    cout << num;
+    return 0;
+}
+*/
+/*
+PASS BY REFERENCE
+WE ARE GENREALY USING .. & ..*/
+
+#include<bits/stdc++.h>
+using namespace std;
+void numbe(int &num){
+    cout << num;
+    num += 25;
+    cout << endl;
+    cout << num;
+    num+=25;
+    cout << endl;
+    cout << num;
+    num += 25;
+    cout << endl;
+    cout << num;
+}
+int main(){
+    int num ;
+    cin >> num;
+    numbe(num);
+    cout << endl << num;
+    return 0;
+}

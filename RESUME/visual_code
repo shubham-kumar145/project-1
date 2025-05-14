@@ -1,0 +1,334 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\namesection{}{Shubham Kumar}{ \urlstyle{same}\url{+91 -7970799102} \\
+\href{shubhamkr5923@gmail.com}{\href{btech10048.23@bitmesra.ac.in}{btech10048.23@bitmesra.ac.in} | shubhamkr5923@gmail.com
+}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{B.Tech}
+\descript{Electronics and Communication Engineering }
+\descript{Birla Institute of Technology, Mesra, Ranchi }
+\location{Expected May 2027 | Ranchi, India}
+% CPI: 7.65
+\sectionsep
+
+\subsection{Intermediate}
+\descript{Sainik School Balachadi}
+\location{2023|  Jamnagar, Gujarat }
+\location{Percentage: 78.4}
+\sectionsep
+\subsection{High School}
+\descript{Sainik School Balachadi}
+\location{2021|  Jamnagar, Gujarat }
+\location{Percentage: 87.2}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\textbullet{} C \textbullet{} C++ \textbullet{} Java \textbullet{} Python
+\subsection{Web Technologies}
+\textbullet{}   HTML \textbullet{} CSS \textbullet{} JavaScript \textbullet{}  React\\
+% \location{Familiar with:}
+% \textbullet{} Arduino
+\sectionsep
+\subsection{Software}
+\textbullet{Adobe Photoshop}\textbullet{Canva}\\\textbullet{Visual Studio Code}\textbullet{Matlab}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Key Courses}
+%\subsection{Undergraduate}
+Data Structures and Algorithms\\
+CIP - GeeksforGeeks
+\sectionsep
+
+\section{Coursework}
+%\subsection{Undergraduate}
+Data Structures \& Algorithms  \\
+Web Development Fundamentals  \\
+Object-Oriented Programming (Java)   \\
+Programming for Problem Solving (C++) 
+Linear Algebra (MathematicsII)  \\
+Signals and Systems\\
+% Digital Electronics \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Fields of Interest
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Fields of Interest} 
+Data Structure and Algorithms\\
+Web Development\\
+Photography\\
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+LinkedIn://  \href{https://www.linkedin.com/in/shubham-kumar145/}{\custombold{shubham-kumar145}} \\
+GitHub:// \href{https://github.com/shubham-kumar145}{\custombold{shubham-kumar145}}
+\sectionsep
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Real-Time Device track}
+\descript{\\ HTML, CSS, JavaScript, Node.js}
+\location{November 2024}
+\vspace{\topsep}
+\begin{tightemize}
+% \item Built a user interactive virtual simulator of a vibration absorber (a device which absorbs vibrations produced from machines).\\
+\item Built a real-time device tracking application that displayed live GPS locations on a map and monitored movement history with instant updates.
+\\
+% \item It was able to run according to the varying inputs controlled by the user. 
+\end{tightemize} 
+\sectionsep
+
+% \runsubsection{User-end responsive website for a restaurant}
+% \descript{|\\ HTML, CSS, JavaScript, AJAX, Node.js}
+% \location{June 2021}
+% \begin{tightemize}
+% \item Built a single page web application for a restaurant that dynamically fetches data from a server using AJAX.
+% \end{tightemize} 
+% \sectionsep
+
+
+\runsubsection{To-Do List}
+\descript{| HTML, CSS, JavaScript, React, Node.js}
+\location{January 2025}
+\begin{tightemize}
+\item Developed a dynamic To-Do List application using JavaScript, allowing users to add, edit, delete, and mark tasks as complete with real-time interface updates. 
+\end{tightemize} 
+\sectionsep
+
+
+
+
+\runsubsection{Trello App}
+\descript{| HTML, CSS, JavaScript, React, Node.js}
+\location{March 2025}
+\begin{tightemize}
+\item Built a Trello-inspired task manager using JavaScript with real-time drag-and-drop, task creation, and instant visual updates.
+\end{tightemize} 
+\sectionsep
+
+
+
+
+% \runsubsection{Analysis of Pumps and Heat Exchangers}
+% \descript{| Indian Oil (IOCL)}
+% \location{July 2021 - August 2021}
+% \begin{tightemize}
+% \item Studied and analysed Pumps and Heat Exchangers that are used in industries.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Effect of Environmental Conditions on Mechanical Properties of Adhesively Bonded Joints}
+% \descript{\\ Dr. Akhilendra Singh}
+% \location{August 2021 - Present}
+% \sectionsep
+
+% \runsubsection{Sun Tracker}
+% \descript{| Tinkerer’s Lab, IIT Patna}
+% \location{June 2019}
+% \begin{tightemize}
+% \item Built a device which was able to follow the movement direction of the
+% Sun using the following IoT tools and components: Arduino, LDRs, and servo motor.
+% \end{tightemize}
+% \sectionsep
+
+% \runsubsection{Influence of secularism in development of society}
+% \descript{| Dr. Aditya Raj}
+% \location{Feb 2021 - March 2021| IIT Patna}
+% \begin{tightemize}
+% \item Analyzed and prepared a report on the influence of secularism in the development of society. 
+% \end{tightemize}
+% \sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CODING PROFILE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{CODING PROFILE} 
+Leetcode  \href{https://leetcode.com/u/shubham-kumar145/}{\custombold{(shubham-kumar145)}}  \hspace{.4cm}
+Codeforces \href{https://codeforces.com/profile/shubham-kumar145}{\custombold{(shubham-kumar145)}}\\
+GeeksForGeeks \href{https://www.geeksforgeeks.org/user/shubhamkr145/}{\custombold{(shubhamkr145)}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Experience}
+% \runsubsection{Barbera}
+% \descript{| Marketing and Financial Analyst Intern}
+% \location{December 2020}
+% \begin{tightemize}
+% \item Developed and improvised marketing/publicity methods for the growth and customer gain, thereby increasing their daily service bookings by 23 \%. 
+% %\item Improvised the price chart of the services, managed the funds, and expenditure. 
+% %\item Designed posters, created videos to gain customers of Jaipur city, and guided two junior interns.
+% \end{tightemize}
+% \sectionsep
+% \runsubsection{C++}
+% \descript{| Programming}
+% \location{May 2020 - present}
+% \begin{tightemize}
+% \item Solved 500+ Data Structures and Algorithms problems on different websites. 
+% \end{tightemize}
+% \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PORs
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{POSITIONS OF RESPONSIBILITY}
+
+\runsubsection{PRESIDENT}
+\descript{|  National Cadet Crops, BIT Mesra
+}
+\location{ January 2025 - Presend}
+\begin{tightemize}
+\item Led the NCC Club in organizing drills, awareness campaigns, and outreach programs, including educational initiatives for rural students.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{TECHNICAL MEMBER}
+\descript{| Iete, BIT Mesra}
+\location{January 2024 - Present}
+\begin{tightemize}
+\item Organized a C++ workshop with 300+ participants and supported events promoting electronics through planning and outreach. 
+\end{tightemize}
+\sectionsep
+
+\runsubsection{CONTENT COORDINATOR}
+\descript{| Psoc, BIT Mesra}
+\location{January 2024 - Present}
+\begin{tightemize}
+\item Managed content and promotions for photography workshops, helping attract 500+ participants and enhance event visibility through coordinated social media outreach.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Mentor/Teacher}
+\descript{| NCC Village Outreach Program, BIT Mesra}
+\location{August 2024 - Present}
+\begin{tightemize}
+\item Taught and mentored students from local villages as part of the NCC’s educational outreach, focusing on basic academics and discipline.
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    Rewards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Rewards and Achievements}
+\sectionsep
+\begin{tightemize}
+%\item Solved \textbf{500+ programming problems} on different websites.%
+\item NCC 'C' Certificate – Awarded with Alpha Grade for outstanding performance and discipline under the National Cadet Corps.
+\item 3rd Place, Football (Captain) – Led the team as captain and secured 3rd position at the All India Sainik School National Games.
+\item Qualified JEE Mains \& Advanced – Successfully cleared one of India’s most competitive engineering entrance exams with a notable rank.
+
+\end{tightemize} 
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}

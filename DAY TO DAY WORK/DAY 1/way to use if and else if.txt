@@ -1,0 +1,73 @@
+/*
+A SCHOOL HAS FOLLOWING RULES FOR GRADING SYSTEM:
+A. BELOW 25 -- F
+B. 25 TO 44 -- E
+C. 45 TO 60 -- D
+D. 61 TO 74 -- C
+E. 75 TO 89 -- B
+F. 90 TO 100 -- A
+*/
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    float x;
+    cin >> x;
+    if (x < 25){
+        cout<< 'F';
+    }
+    if (x >= 25 && x < 45){
+        cout << "E";
+    }
+    if (x >= 45 && x < 61){
+        cout<< 'D';
+    }
+    if (x >= 61 && x < 75){
+        cout<< 'C';
+    }
+    if (x >= 75 && x < 90){
+        cout<< 'B';
+    }
+    if (x >= 90 && x <= 100){
+        cout<< 'A';
+    }
+    if (x>100){
+        cout << "invalid marks";
+    }
+    return 0;
+}*/
+
+// this will take lot of time so we can we another method
+
+#include<bits/stdc++.h>
+using namespace std;
+int main (){
+    float y;
+    cin >> y;
+    if (y < 25){
+        cout << "F";
+    }
+    else if (y< 45){
+        cout << "E";
+    }
+    else if(y<60){
+        cout <<"D";
+    }
+    else if (y<75){
+        cout <<"C";
+    }
+    else if (y<90){
+        cout<< "B";
+    }
+    else if (y <= 100){
+        cout<< "A";
+    }
+    else if (y>100){
+        cout <<"invalid marks";
+    }
+    else {
+        cout << " check for error";
+    }
+    cout<< y;
+    return 0;
+}

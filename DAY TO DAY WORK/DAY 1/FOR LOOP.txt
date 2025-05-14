@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i;
+    for(i=1;i<=10;i+=1){
+        cout << "hey shubham kumar"<<i;
+        cout << endl;
+    }
+    cout << i << "    end here ";
+    return 0;
+}

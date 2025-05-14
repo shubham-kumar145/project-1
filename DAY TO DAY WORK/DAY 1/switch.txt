@@ -1,0 +1,80 @@
+/*now we learning about switch() */
+/*
+#include<bits/stdc++.h>
+using namespace std;
+int main (){
+    int day;
+    cin >> day;
+    switch (day){
+        case 1:
+        cout << "MONDAY";
+        case 2:
+        cout << "TUESDAY";
+        case 3:
+        cout << "WEDNESDAY";
+        case 4:
+        cout << "THRUSDAY";
+        case 5:
+        cout << "FRIDAY";
+        case 6:
+        cout << "SATURDAY";
+        case 7:
+        cout << "SUNDAY";
+    }
+    return 0;
+}*/
+// HERE WE NOT USED ..BREAK.. FUNCTION THIS MEANS ALL THE CASE WILL PRINT AFTER THAT NUMBER
+// TO AVOIT IT USE BREAK FUNCTION
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int day1 , day2;
+    cin >> day1 >> day2;
+    switch(day1){
+        case 1:
+        cout << "MONDAY";
+        break;
+        case 2:
+        cout << "TUESDAY";
+        break;
+        case 3:
+        cout << "WEDNESDAY";
+        break;
+        case 4:
+        cout << "THURSDAY";
+        break;
+        case 5:
+        cout << "FRIDAY";
+        break;
+        case 6:
+        cout << "SATURDAY";
+        break;
+        case 7:
+        cout << "SUNDAY";
+        break;
+    }
+    switch(day2){
+        case 1:
+        cout << "MONDAY";
+        break;
+        case 2:
+        cout << "TUESDAY";
+        break;
+        case 3:
+        cout << "WEDNESDAY";
+        break;
+        case 4:
+        cout << "THURSDAY";
+        break;
+        case 5:
+        cout << "FRIDAY";
+        break;
+        case 6:
+        cout << "SATURDAY";
+        break;
+        case 7:
+        cout << "SUNDAY";
+        break;
+    }
+    return 0;
+}
