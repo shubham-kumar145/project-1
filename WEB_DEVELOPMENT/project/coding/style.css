@@ -1,0 +1,80 @@
+.admission-page {
+  padding: 3rem 10%;
+  background: #f9fbff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admission-page h1 {
+  font-size: 2.5rem;
+  color: #002b5c;
+  text-align: center;
+}
+
+.intro-text {
+  text-align: center;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.steps ol {
+  padding-left: 1.2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.admission-form {
+  background: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+  margin-bottom: 3rem;
+}
+
+.admission-form h2 {
+  margin-bottom: 1rem;
+  color: #004080;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.btn {
+  background-color: #003366;
+  color: white;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00509e;
+}
+
+.contact-info {
+  text-align: center;
+  color: #333;
+}
+
+.contact-info h2 {
+  margin-bottom: 1rem;
+}

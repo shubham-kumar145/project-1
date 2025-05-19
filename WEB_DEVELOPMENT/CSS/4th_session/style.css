@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    /* to insert the the background image */
+    height: 100%;
+    width: 100%;
+    /* background-image: linear-gradient(20deg,rgb(104, 218, 104),rgb(117, 117, 187),rgb(225, 193, 134)); */
+    /* background-image: linear-gradient(to left,rgb(104, 218, 104),rgb(117, 117, 187),rgb(225, 193, 134)); */
+    /* background-image: linear-gradient(to right,rgb(104, 218, 104),rgb(117, 117, 187),rgb(225, 193, 134)); */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    /* background-color: antiquewhite; */
+    /* background-image: url("/PXL_20241206_071850566.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+
+body h1 {
+    text-align: center;
+    color: rgb(24, 65, 68);
+    margin: 10px;
+}
+
+body #p {
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform:lowercase;
+    text-shadow: -2px -1px 10px black;
+    /* text-decoration: underline; */
+    margin-top: 10px;
+    text-align: left;
+    height: 500px;
+    width: 600px;
+    text-align: justify;
+    padding: 20px;
+    color: red;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body #login {
+    background-image: radial-gradient(circle,pink,black,white,red,green,blue);
+    height: 500px;
+    width: 600px;
+    border: 2px double crimson;
+    margin: 30px;
+    justify-self: center;
+    justify-content: space-between  ;
+    border-radius: 30px;
+    background-color: aquamarine;
+
+}
+body #all{
+    display: flex;
+    justify-content:space-around;
+}
+body #login #l_h {
+    text-align: center;
+    color: darkred;
+    padding: 4px;
+}
+
+body #login #name1 {
+    color: brown;
+    /* justify-self: right; */
+}
+
+body #login #name {
+    margin: 20px;
+    color: brown;
+    /* justify-self:right; */
+}

@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --colour: #004080;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #ededef;
+}
+
+/* header */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--colour);
+    padding: 16px 32px;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    background-color: var(--colour);
+}
+
+#navbar #logo {
+    color: #f6f2f2;
+    font-size: 1.8rem;
+    font-weight: bold;
+    display: flex;
+    margin-left: 1.3%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#logo_text {
+    align-content: center;
+    justify-content: center;
+    /* padding-bottom: 6%; */
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 1%;
+    align-content: center;
+}
+
+img {
+    height: auto;
+    max-height: 50px;
+    max-width: 100%;
+    width: auto;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+#content {
+    color: #f6f2f2;
+    list-style: none;
+    display: flex;
+    padding: 1%;
+    align-content: center;
+    gap: 2rem;
+}
+
+#content a {
+    cursor: pointer;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#content a:hover {
+    color: rgb(202, 232, 34);
+    text-decoration: underline;
+}
+
+
+/* main */
+
+h1 {
+    text-align: center;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--colour);
+}
+
+#a_p {
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    font-size: .9rem;
+}
+
+.about_sec1 {
+    margin: 2rem;
+    /* margin-left: 10%; */
+    max-width: 100%;
+    /* background-color: #ffcc00; */
+    display: flex;
+    /* align-items: center; */
+    justify-self: center;
+    gap: 3rem;
+    /* justify-content: space-between; */
+}
+
+.about_sec1 .about_our {
+    margin-top: 2rem;
+    max-width: 30rem;
+    border-radius: 20px;
+    background-color: rgb(251, 248, 248);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about_sec1 .about_our h2 {
+    margin-top: .2rem;
+    text-align: center;
+    color: var(--colour);
+    font-size: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+.about_sec1 .about_our p {
+    font-size: .9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.about_sec2{
+ /* text-align: start;/ */
+ /* align-items: start;
+  */
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  /* background-color: antiquewhite; */
+  max-width: 50%;
+  margin-left: 30%;
+  /* list-style: none; */
+}
+
+.about_sec2 h2{
+    /* text-align: center; */
+    margin-left: 15%;
+    font-size: 2rem;
+    color: var(--colour);
+    margin-bottom: .7rem;
+}
+
+.about_sec2 li p::before{
+    content: "✅    ";
+}
+.about_sec2 li{
+    margin-left: 20%;
+    list-style: "";
+}
+.about_sec3{
+    padding: 2rem;
+    align-self: center;
+    display: flex;
+    /* background-color: antiquewhite; */
+    flex-direction: column;
+}
+.about_sec3 h2{
+    color: var(--colour);
+    /* margin-top: 3rem; */
+    text-align: center;
+    font-size: 1.6rem;
+    /* margin-bottom: 1rem; */
+}
+
+.our_box{
+    /* background-color: aquamarine; */
+    display: flex;
+    gap: 2rem;
+    border-radius: 20px;
+    /* max-width: 100%; */
+    /* max-width: 80rem; */
+    align-self: center;
+    justify-content: space-around;
+}
+.our_team{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+    max-width: 20rem;
+    gap: 2rem;
+}
+.about_sec3 .our_box p{
+    font-size: .6rem;
+}
+.about_sec3 .our_box h2{
+    font-size: .9rem;
+    color: var(--colour);
+    text-align: center;
+}
+
+
+/* footer */
+#footer_sec {
+    color: white;
+    /* display: flex; */
+    /* flex-direction: column; */
+    justify-items: center;
+    /* align-items: center; */
+    padding: 2rem 0;
+    background-color: #036;
+    /* margin-bottom: rem; */
+}
+
+#footer_sec p {
+    font-size: 1.1rem;
+    margin: 0 5rem;
+    /* margin-bottom: 2rem; */
+}
+
+#footer_logo::before {
+    content: "©  ";
+    color: white;
+}
+
+#footer_sec p a {
+    cursor: pointer;
+    color: #ffcc00;
+    margin: 0 0.3rem;
+    text-decoration: none;
+}
+
+#footer_sec p a:hover {
+    text-decoration: underline;
+    color: wheat;
+}
